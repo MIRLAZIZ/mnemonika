@@ -25,6 +25,7 @@
 
     &.router-link-exact-active {
       color: #42b983;
+      background: #000;
     }
   }
 }
