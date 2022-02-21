@@ -2,7 +2,7 @@
   <div class="bgimg">
     <div class="sozlama bg-white m-auto">
       <Main></Main>
-      <div>
+      <div class="px-6">
         <router-view></router-view>
       </div>
     </div>
@@ -10,6 +10,7 @@
 </template>
 <script>
 import Main from "./components/Main.vue";
+
 export default {
   name: "App",
   components: {
