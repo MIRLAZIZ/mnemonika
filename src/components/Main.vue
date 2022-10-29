@@ -1,27 +1,35 @@
 <template>
-  <div class="bg-purple-900 main">
-    <div class="main_flex w-full h-28 px-6">
-      <button class="header-btn p-1 rounded" @click="back">
-        <svg
-          class="h-8 w-8 text-white"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <polyline points="15 18 9 12 15 6" />
-        </svg>
-      </button>
-      <h1 class="text-3xl text-white">Mnemonika</h1>
-      <img src="@/assets/profile.png" class="w-16" />
+  <div>
+    <div class="flex flex-wrap">
+      <div class="w-2/12 h-24 flex justify-center items-center sidebar">
+        <h1 class="text-5xl">ZK</h1>
+      </div>
+      <div class="w-10/12 menu">
+        <navbar />
+      </div>
+      <div class="w-2/12 h-screen bg-violet-900 border sidebar">
+        <sidebar />
+      </div>
+      <div class="w-10/12">
+        <table-item />
+      </div>
     </div>
-    <div class=" h-6 bg-white main_rounded"></div>
   </div>
 </template>
+
 <script>
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
+import TableItem from "./TableItem.vue";
 export default {
+  components: {
+    Sidebar,
+    Navbar,
+    TableItem,
+  },
+  data() {
+    return {};
+  },
   methods: {
     back() {
       this.$router.go(-1);
@@ -30,20 +38,10 @@ export default {
 };
 </script>
 <style scoped>
-.main {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+.sidebar {
+  background: #e3f2fd;
 }
-.header-btn {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.main_flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main_rounded {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+.menu {
+  background: #f5f5f5;
 }
 </style>
