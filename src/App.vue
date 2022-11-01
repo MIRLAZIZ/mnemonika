@@ -1,9 +1,9 @@
 <template>
   <div class="bgimg">
     <div class="sozlama bg-white m-auto">
-      <Main />
+      <Main/>
       <div class="px-6">
-        <router-view />
+       
       </div>
     </div>
   </div>
@@ -17,11 +17,10 @@ export default {
     Main,
   },
   data() {
-    return {};
+    return {};         
   },
 };
 </script>
-
 <style scoped>
 .sozlama {
   width: 100%;

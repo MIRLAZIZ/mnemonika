@@ -1,20 +1,49 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Settings from '../views/Settings.vue'
+import TableItem from '../views/TableItem.vue'
+import About from '../views/About.vue'
+import Home from '../views/Home.vue'
+import Manual from '../views/Manual.vue'
+import Dobavit from '../views/Dobavit.vue'
+import UpdateTable from '../views/UpdateTable.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/settings',
     name: 'Settings',
     component: Settings
   },
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: About
   },
+  {
+    path: '/',
+    name: 'TableItem',
+    component: TableItem
+  },
+  {
+    path: '/home',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/manual',
+    name: 'Manual',
+    component: Manual
+  },
+  {
+    path: '/dobavit',
+    name: 'Dobavit',
+    component: Dobavit
+  },
+  {
+    path: '/tableItem/:id',
+    name: 'UpdateTable',
+    component: UpdateTable
+  }
+
   
 ]
 

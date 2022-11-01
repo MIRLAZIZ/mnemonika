@@ -7,11 +7,12 @@
       <div class="w-10/12 menu">
         <navbar />
       </div>
-      <div class="w-2/12 h-screen bg-violet-900 border sidebar">
+      <div class="w-2/12 sidebarH border sidebar">
         <sidebar />
       </div>
-      <div class="w-10/12">
-        <table-item />
+      <div class="w-10/12 p-10">
+        <router-view />
+        
       </div>
     </div>
   </div>
@@ -20,7 +21,7 @@
 <script>
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
-import TableItem from "./TableItem.vue";
+import TableItem from "../views/TableItem.vue";
 export default {
   components: {
     Sidebar,
@@ -42,6 +43,9 @@ export default {
   background: #e3f2fd;
 }
 .menu {
-  background: #f5f5f5;
+  background: #489EE2;
+}
+.sidebarH {
+  height: 85vh;
 }
 </style>

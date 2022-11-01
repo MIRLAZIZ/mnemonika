@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mirlaziz",
+      "lastname": "Mirtolipov",
+      "telNum": "+998936284882",
+      "adres": "Toshkent vil",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Miraziz",
+      "lastname": "Mirtolipov",
+      "telNum": "+998936284885",
+      "adres": "Toshkent vil",
+      "status": false,
+      "boughtItem": true
+    },
+    {
+      "id": 3,
+      "name": "Sardor",
+      "lastname": "Sirojidinov",
+      "telNum": "+998935555555",
+      "adres": "Toshkent vil",
+      "status": true
+    },
+    {
+      "name": "Mirgiyios",
+      "lastname": "Mirazizov",
+      "telNum": "+998936640323",
+      "adres": "parkent",
+      "status": "",
+      "id": 4
+    },
+    {
+      "name": "Begzod",
+      "lastname": "Maxkamov",
+      "telNum": "5465455",
+      "adres": "andilon",
+      "status": "",
+      "id": 5
+    },
+    {
+      "name": "Bahtiyor ",
+      "lastname": "Mirtolipov",
+      "telNum": "7867678",
+      "adres": "Parkent",
+      "status": "",
+      "id": 6
+    },
+    {
+      "name": "Jo'rabek",
+      "lastname": "Maxmudov",
+      "telNum": "4545115",
+      "adres": "toshkent",
+      "status": "",
+      "id": 7
+    },
+    {
+      "name": "Murod",
+      "lastname": "Jalilov",
+      "telNum": "65",
+      "adres": "toshkent",
+      "status": "",
+      "id": 8,
+      "boughtItem": true
+    },
+    {
+      "name": "umit",
+      "lastname": "Nuridinov",
+      "telNum": "6323",
+      "adres": "toshkent",
+      "status": "",
+      "id": 9
+    },
+    {
+      "name": "shahzod",
+      "lastname": "Umarov",
+      "telNum": "565+65+",
+      "adres": "parkent",
+      "status": false,
+      "id": 10
+    },
+    {
+      "name": "Xolmurod",
+      "lastname": "Mirashirov",
+      "telNum": "541323",
+      "adres": "Parkent",
+      "status": true,
+      "id": 11
+    },
+    {
+      "name": "Shomurod",
+      "lastname": "Shomirov ",
+      "telNum": "54512",
+      "adres": "pasrkent",
+      "status": true,
+      "id": 12,
+      "boughtItem": true
+    },
+    {
+      "name": "fgf",
+      "lastname": "gfg",
+      "telNum": "fgf",
+      "adres": "fgfg",
+      "status": false,
+      "id": 13
+    }
+  ]
+}
